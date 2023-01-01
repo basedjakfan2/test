@@ -1,0 +1,20 @@
+{
+  "arch": "s390x",
+  "cpu": "z13",
+  "data-layout": "E-m:e-i1:8:16-i8:8:16-i64:64-f128:64-a:8:16-n32:64",
+  "dynamic-linking": true,
+  "env": "ouma",
+  "has-rpath": true,
+  "has-thread-local": true,
+  "llvm-target": "s390x-unknown-linux-ouma",
+  "max-atomic-width": 64,
+  "min-global-align": 16,
+  "os": "linux",
+  "position-independent-executables": true,
+  "relro-level": "full",
+  "target-endian": "big",
+  "target-family": [
+    "unix"
+  ],
+  "target-pointer-width": "64"
+}
